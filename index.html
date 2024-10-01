@@ -2,35 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Article preview component</title>
 </head>
 <body>
-
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
-
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
-
-  Michelle Appleton
-  28 Jun 2020
+  <main id="component">
+    <img src="images/drawers.jpg" alt="image of drawers">
+    <h1 id="intro">
+      Shift the overall look and feel by adding these wonderful 
+      touches to furniture in your home
+    </h1>
+    <p id="explanation">
+      Ever been in a room and felt like something was missing? Perhaps 
+      it felt slightly bare and uninviting. I’ve got some simple tips 
+      to help you make any room feel complete.
+    </p>
+    <section id="profile">
+      <img src="images/avatar-michelle.jpg" alt="image of Michelle">
+      <section id="name-date">
+        <h2 id="name">Michelle Appleton</h2>
+        <p id="date">28 Jun 2020</p>
+      </section>
+      <img src="images/icon-share.svg" alt="a share icon">
+    </section>
+  </main>
 
   Share
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.frontendmentor.io/profile/alphastand27" target="_blank">Micheal</a>.
+  </footer>
+  <script src="index.js"></script>
 </body>
 </html>
