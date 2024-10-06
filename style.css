@@ -1,10 +1,129 @@
+body {
+  font-size: 13px;
+  background-color: #9eafc2 !important; }
+  body #component {
+    position: relative;
+    max-width: 375px;
+    background-color: #ecf2f8;
+    margin-top: 10%;
+    border-radius: 10px; }
+    body #component #img #drawers {
+      position: relative;
+      z-index: 0;
+      width: 107%;
+      border-radius: 10px 10px 0 0; }
+    body #component #img div {
+      position: relative;
+      z-index: 1;
+      background-color: #ecf2f8;
+      width: 106.8%;
+      height: 100px;
+      margin-top: -15%;
+      margin-left: -3.3%; }
+    body #component #content {
+      position: relative;
+      z-index: 1;
+      background-color: #ecf2f8;
+      width: 100%;
+      padding: 10% 10% 8% 10%;
+      margin-top: -27%; }
+      body #component #content #intro {
+        color: #48556a;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px; }
+      body #component #content #explanation {
+        color: #6d7f97;
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 5%; }
+      body #component #content #profile {
+        margin-top: 10%;
+        width: 133.5%;
+        height: 8vh;
+        margin-left: -16.5%;
+        margin-bottom: -10%;
+        border-radius: 0 0 10px 10px; }
+        body #component #content #profile #avatar {
+          border-radius: 50%;
+          max-width: 20%;
+          max-height: 48px;
+          margin: 1% 0 0 5%; }
+        body #component #content #profile #name-date {
+          margin-top: 2%;
+          margin-left: 2%; }
+          body #component #content #profile #name-date #name {
+            color: #48556a;
+            font-weight: 700;
+            font-size: 14.5px;
+            margin-bottom: 1%; }
+          body #component #content #profile #name-date #date {
+            color: #6d7f97;
+            font-weight: 400;
+            font-size: 15.5px; }
+        body #component #content #profile button {
+          border: none;
+          border-radius: 50%;
+          background-color: #9eafc2;
+          max-width: 9%;
+          max-height: 35px;
+          padding-bottom: 2%;
+          padding-right: 7%;
+          margin: 4.5% 8% 0 0; }
+  body .attribution {
+    font-size: 11px;
+    text-align: center; }
+  body .attribution a {
+    color: #3e52a3; }
 
+@media only screen and (min-width: 820px) {
+  #component {
+    display: flex;
+    flex-direction: row;
+    max-width: 53vw !important;
+    height: 298px; }
+    #component #img {
+      display: flex; }
+      #component #img #drawers {
+        width: 26vw !important;
+        border-radius: 10px 0 0 10px !important; }
+      #component #img div {
+        height: 298px !important;
+        margin-top: 0 !important;
+        margin-left: -16% !important; }
+    #component #content {
+      width: 390% !important;
+      padding: 4% !important;
+      margin-top: 0% !important;
+      margin-left: -5%; }
+      #component #content #intro {
+        font-size: 20px !important;
+        line-height: 27px !important; }
+      #component #content #explanation {
+        font-weight: 500 !important;
+        font-size: 13px !important; }
+      #component #content #profile {
+        margin-top: 8%;
+        width: 124% !important;
+        height: 10vh !important;
+        margin-left: -13% !important;
+        margin-bottom: -10%;
+        border-radius: 0 0 10px 0 !important; }
+        #component #content #profile #avatar {
+          max-width: 15% !important;
+          max-height: 40px !important;
+          margin: 1% 0 0 5.5% !important; }
+        #component #content #profile #name-date {
+          margin-left: 0 !important; }
+          #component #content #profile #name-date #name {
+            font-size: 12px !important;
+            margin-bottom: 1%; }
+          #component #content #profile #name-date #date {
+            font-size: 12px !important; }
+        #component #content #profile button {
+          max-width: 1% !important;
+          max-height: 35px !important;
+          padding-right: 5.5% !important;
+          margin: 2.5% 6% 0 0 !important; } }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
+/*# sourceMappingURL=style.css.map */
