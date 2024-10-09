@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [articlepreviewmain](https://articlepreviewmain.netlify.app/)
 
 ## My process
 
@@ -50,6 +50,8 @@ During this challenge I looked at the difference between scss and sass. While fo
 
 The differences are shown below:
 
+SCSS 
+
 ```scss
 body {
     font-size: 13px;
@@ -66,6 +68,8 @@ body {
     }
 }
 ```
+SASS
+
 ```sass
 body
     font-size: 13px
