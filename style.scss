@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 $Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
 $Desaturated-Dark-Blue: hsl(214, 17%, 51%);
 $Grayish-Blue: hsl(212, 23%, 69%);
@@ -6,9 +8,11 @@ $Light-Grayish-Blue: hsl(210, 46%, 95%);
 body {
     font-size: 13px;
     background-color: $Grayish-Blue !important;
+    font-family: "Manrope", sans-serif;
     
     #component {
         position: relative;
+        z-index: 0;
         max-width: 375px;
         background-color: $Light-Grayish-Blue;
         margin-top: 10%;
@@ -102,6 +106,48 @@ body {
         }
     }
 
+    #share-link {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+        align-items: center;
+        width: 100%;
+        height: 8vh;
+        border-radius: 0 0 10px 10px;
+        background-color: $Very-Dark-Grayish-Blue;
+        margin-top: -17.5%;
+        margin-bottom: 10%;
+
+        #share {
+            color: $Desaturated-Dark-Blue;
+            font-weight: 500;
+            letter-spacing: 5px;
+            margin: 16% auto auto 22%;
+        }
+
+        #icon {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-left: -18%;
+        }
+
+        #button2 {
+            border: none;
+            border-radius: 50%;
+            background-color: $Grayish-Blue;
+            min-width: 33px;
+            height: 33px;
+            padding-bottom: 5%;
+            padding-left: 5%;
+            margin: -8% 0 0 49% !important;
+        }
+
+        #triangle {
+            display: none;
+        }
+    }
+
     .attribution { 
         font-size: 11px; 
         text-align: center; 
@@ -151,7 +197,7 @@ body {
             }
 
             #profile {
-                margin-top: 8%;
+                margin-top: 7% !important;
                 width: 124% !important;
                 height: 10vh !important;
                 margin-left: -13% !important;
@@ -184,6 +230,40 @@ body {
                     margin: 2.5% 6% 0 0 !important;
                 }
             }
+        }
+    }
+
+    #share-link {
+        grid-template-columns: 60% 40% !important;
+        max-width: 55% !important;
+        height: 8.5vh !important;
+        border-radius: 8px !important;
+        margin-left: 61.8% !important;
+        margin-top: -32.5% !important;
+        margin-bottom: 10% !important;
+
+        #share {
+            letter-spacing: 3px !important;
+            margin: 12% auto auto 20% !important;
+        }
+
+        #icon {
+            margin-bottom: -16% !important;
+            margin-left: -30% !important;
+        }
+
+        #button2 {
+            display: none !important;
+        }
+
+        #triangle {
+            display: block !important;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 25px solid $Very-Dark-Grayish-Blue;
+            margin: 5% auto auto 70%;
         }
     }
 }
