@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 body {
   font-size: 13px;
-  background-color: #9eafc2 !important; }
+  background-color: #9eafc2 !important;
+  font-family: "Manrope", sans-serif; }
   body #component {
     position: relative;
+    z-index: 0;
     max-width: 375px;
     background-color: #ecf2f8;
     margin-top: 10%;
@@ -70,6 +73,38 @@ body {
           padding-bottom: 2%;
           padding-right: 7%;
           margin: 4.5% 8% 0 0; }
+  body #share-link {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    border-radius: 0 0 10px 10px;
+    background-color: #48556a;
+    margin-top: -17.5%;
+    margin-bottom: 10%; }
+    body #share-link #share {
+      color: #6d7f97;
+      font-weight: 500;
+      letter-spacing: 5px;
+      margin: 16% auto auto 22%; }
+    body #share-link #icon {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin-left: -18%; }
+    body #share-link #button2 {
+      border: none;
+      border-radius: 50%;
+      background-color: #9eafc2;
+      min-width: 33px;
+      height: 33px;
+      padding-bottom: 5%;
+      padding-left: 5%;
+      margin: -8% 0 0 49% !important; }
+    body #share-link #triangle {
+      display: none; }
   body .attribution {
     font-size: 11px;
     text-align: center; }
@@ -103,7 +138,7 @@ body {
         font-weight: 500 !important;
         font-size: 13px !important; }
       #component #content #profile {
-        margin-top: 8%;
+        margin-top: 7% !important;
         width: 124% !important;
         height: 10vh !important;
         margin-left: -13% !important;
@@ -124,6 +159,31 @@ body {
           max-width: 1% !important;
           max-height: 35px !important;
           padding-right: 5.5% !important;
-          margin: 2.5% 6% 0 0 !important; } }
+          margin: 2.5% 6% 0 0 !important; }
+
+  #share-link {
+    grid-template-columns: 60% 40% !important;
+    max-width: 55% !important;
+    height: 8.5vh !important;
+    border-radius: 8px !important;
+    margin-left: 61.8% !important;
+    margin-top: -32.5% !important;
+    margin-bottom: 10% !important; }
+    #share-link #share {
+      letter-spacing: 3px !important;
+      margin: 12% auto auto 20% !important; }
+    #share-link #icon {
+      margin-bottom: -16% !important;
+      margin-left: -30% !important; }
+    #share-link #button2 {
+      display: none !important; }
+    #share-link #triangle {
+      display: block !important;
+      width: 0;
+      height: 0;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 25px solid #48556a;
+      margin: 5% auto auto 70%; } }
 
 /*# sourceMappingURL=style.css.map */
