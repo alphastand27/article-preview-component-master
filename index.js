@@ -12,7 +12,7 @@ const linkDisplay = () => {
         return displayState = true;
     } else {
         link.style = 'display: none';
-        button.style = 'background-color: hsl(212, 23%, 69%)';
+        button.style = 'background-color: hsl(210, 46%, 95%)';
         return displayState = false;
     }
 };

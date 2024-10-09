@@ -7,14 +7,14 @@ $Light-Grayish-Blue: hsl(210, 46%, 95%);
 
 body {
     font-size: 13px;
-    background-color: $Grayish-Blue !important;
+    background-color: $Light-Grayish-Blue !important;
     font-family: "Manrope", sans-serif;
     
     #component {
         position: relative;
         z-index: 0;
         max-width: 375px;
-        background-color: $Light-Grayish-Blue;
+        background-color: white;
         margin-top: 10%;
         border-radius: 10px;
         
@@ -29,7 +29,7 @@ body {
             div {
                 position: relative;
                 z-index: 1;
-                background-color: $Light-Grayish-Blue;
+                background-color: white;
                 width: 106.8%;
                 height: 100px;
                 margin-top: -15%;
@@ -40,7 +40,7 @@ body {
         #content {
             position: relative;
             z-index: 1;
-            background-color: $Light-Grayish-Blue;
+            background-color: white;
             width: 100%;
             padding: 10% 10% 8% 10%;
             margin-top: -27%;
@@ -95,7 +95,7 @@ body {
                 button {
                     border: none;
                     border-radius: 50%;
-                    background-color: $Grayish-Blue;
+                    background-color: $Light-Grayish-Blue;
                     max-width: 9%;
                     max-height: 35px;
                     padding-bottom: 2%;
@@ -135,7 +135,7 @@ body {
         #button2 {
             border: none;
             border-radius: 50%;
-            background-color: $Grayish-Blue;
+            background-color: $Grayish-Blue !important;
             min-width: 33px;
             height: 33px;
             padding-bottom: 5%;
